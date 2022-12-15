@@ -42,8 +42,17 @@
         <div class="block" id="fourbl"> </div>
         <div class="block" id="fivebl"> </div>
 
-        <div class="text" id="mywork">
-            <h1>My Work</h1>
+        <div class="text-title" id="mywo">
+            <h1 class="text-title-text" >My Work</h1>
+        </div>
+        <div class="text-heading">
+            <h3 class="text-heading-text">Maker Lab</h3>
+        </div>
+        <div class="first-paragraph-container">
+            <h4 class="first-paragraph">
+                During the winter semester of 2022 I took a class called “Maker Lab”. Throughout this class we learned about designing and making concepts from various authors; Critical Making as described by Matt Ratto, The Maker Movement from Mark Hatch’s perspective, The Textility of Making as explained by Tim Ingold and many more. These various concepts were incorporated into the various hands-on projects that the class did throughout the term. Two of the main projects involved creating a physical prototype. In a group, we had to design a solution to a problem that a certain subset of users are facing. These projects followed the five phases of critical making; Inspiration, Understanding, Ideation, Making and Sharing.
+
+            </h4>
         </div>
 
         <div class="project-image-button-container">
@@ -57,24 +66,41 @@
             
         </div>
 
-        <div class="project-image-button-container">
-            <div class="image" id="twoim">
-                <img id="twopi" src="/photos/PAC.png" alt="PAC Box">
+        <div class="project-image-button-container ">
+            <div class="image-of-project-container " id="twom">
+                <img class="image-of-project" id="twoi" src="/photos/PAC.png" alt="PAC Box">
             </div>
-            <button class="button" id="project-button-2" type="button" onclick="toggleNav2()">See More</button>
+            <div class="project-button-container">
+            <button class="project-button button" id="project-button-2" type="button" onclick="toggleNav2()">See More</button>
+            </div>
         </div>
 
+
+
         <div class="project-image-button-container">
+            <div class="project-button-container">
+                <button class="project-button button" id="project-button-3" type="button" onclick="toggleNav3()">See More</button>
+            </div>
+
+            <div class="image-of-project-container" id="onei">
+                <img class="image-of-project" id="one" src="/photos/Box top copy.png">
+            </div>
+            
+        </div>
+
+
+        <!-- <div class="project-image-button-container">
             <div class="image" id="threeim">
                 <img id="twopi" src="/photos/Box top copy.png">
             </div>
-            <button class="button" id="project-button-3" type="button" onclick="toggleNav3()">See More</button>
+
+            <button class="button" id="" type="button" onclick="toggleNav3()">See More</button>
         </div>
 
         <div class="project-image-button-container">
             <div class="image" id="fourim"> </div>
             <button class="button" id="fourbu" type="button">See More</button>
-        </div>
+        </div> -->
 
 
 
@@ -382,9 +408,9 @@
 
 
             <div class="text" id="PAC">
-                <h3>PAC Positive </h3>
-                <h3>Affirmation Cookies</h3>
-                <h5>Social Issue Project</h5>
+                <h3>Accessible  </h3>
+                <h3>Delivery Box</h3>
+                <h5>"Hacking" a Box Project</h5>
                 <h6>Dec 2022 </h6>
             </div>
 
@@ -629,7 +655,7 @@
                 document.getElementById("main").style.position = "sticky";
                 // and update the button text...
                 document.getElementById("project-button-1").innerText = "Close";
-                document.getElementById("project-button-1").style.left = "34%";
+                document.getElementById("project-button-1").style.left = "38%";
                 // and remember for the next time we click the btn, that the sidebar is open now!
                 isTheSidebarOpen = true
 
@@ -653,7 +679,7 @@
                 document.getElementById("main").style.position = "sticky";
                 // and update the button text...
                 document.getElementById("project-button-2").innerText = "Close";
-                document.getElementById("project-button-2").style.left = "46%";
+                document.getElementById("project-button-2").style.left = "50%";
                 // and remember for the next time we click the btn, that the sidebar is open now!
                 isTheSidebarOpen = true
 
@@ -678,7 +704,7 @@
                 document.getElementById("main").style.position = "sticky";
                 // and update the button text...
                 document.getElementById("project-button-3").innerText = "Close";
-                document.getElementById("project-button-3").style.left = "34%";
+                document.getElementById("project-button-3").style.left = "38%";
                 // and remember for the next time we click the btn, that the sidebar is open now!
                 isTheSidebarOpen = true
 

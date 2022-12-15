@@ -1,7 +1,7 @@
 /*headers/text*/
 h1 {
     font-family: 'Sassy Frass', cursive;
-    margin-left: 50px;
+
     font-size: 10em;
     font-weight: normal;
     margin-block-start: 0em;
@@ -120,7 +120,7 @@ div#mywork.text {
     /* initially 0... js will update */
     width: 0;
     position: fixed;
-    z-index: 50;
+    z-index: 110;
     top: 5em;
     background-color: var(--Accent);
     overflow-x: hidden;
@@ -654,19 +654,19 @@ button.button:hover {
 
 /*speific buttons*/
 #project-button-1 {
-    z-index: 100;
+    
     transition: .5s;
 }
 
 #project-button-2 {
-    z-index: 100;
+    
     /* left: 60%;
     top: 73.5em; */
     transition: .5s;
 }
 
 #project-button-3 {
-    z-index: 100;
+   
     /* left: 30%;
     top: 110em; */
     transition: .5s;
@@ -822,31 +822,100 @@ h3.circle-number {}
     align-items: center;
 }
 
+
+
+
+
+
+
 /*main portfolio page stuff*/
+.text-title{
+    z-index: 100;
+    display: flex;
+    justify-content:left;
+
+}
+.text-title-text{
+    z-index: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    color: black; 
+}
+
+.text-heading{
+    z-index: 100;
+    display: flex;
+    justify-content:center;
+
+}
+.text-heading-text{
+    z-index: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    color: black; 
+}
+.first-paragraph-container{
+    z-index: 100;
+    display: flex;
+    justify-content:center;
+
+}
+.first-paragraph{
+    z-index: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1em;
+    width: 60%;
+    line-height: 1.5em;
+    color: black; 
+
+}
+
+
+
+
 .project-image-button-container{
     z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20%;
+}
+.project-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
 }
 .image-of-project-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 30%;
-    
+    width: 50%;
 }
 
 img.image-of-project{
     z-index: 100;
-    width: 34%;
+    /* width: ; */
     height: 20em;
     filter: grayscale(100%);
 }
 .project-button{
+    z-index: 200;
     display: flex;
     flex-direction: row;
     justify-content: left;
     width: 5%;
     padding: 1%;
+}
+#project-button-1{  
+    left:30%;
+}
+#project-button-2{  
+    left:60%;
+}
+#project-button-3{  
+    left:30%;
 }
